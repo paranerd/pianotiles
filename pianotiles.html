@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<title>Piano Tiles</title>
+	<link rel="stylesheet" href="design.css" />
+</head>
+
+<body>
+	<div id="playground"></div>
+	
+	<div id="seekbar" class="hidden"></div>
+	<div id="gameover" class="hidden">
+		<div id="headline" style="margin-top: 40%; font-size: 48px; font-weight: bold; text-align: center;">Score</div>
+		<div id="score" style="margin-top: 20px; font-size: 28px; text-align: center;"></div>
+		<div id="highscore" style="margin-top: 20px; font-size: 20px; text-align: center;"></div>
+		
+		<div id="replay" onclick="init();" style="margin-top: 20px; height: 30px; width: 100%; text-align: center;">Try again</div>
+	</div>
+	
+	<div id="mode" class="button" onclick="changeMode();"></div>
+	
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/pianotiles.js"></script>
+</body>
+</html>
